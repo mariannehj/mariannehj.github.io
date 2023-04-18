@@ -1,3 +1,4 @@
+
 *{
 	box-sizing:border-box;
 }
@@ -26,7 +27,7 @@ body{
 
 .container div{
 	height:50%;
-	width:200px;
+	width:500px;
 	position: absolute;
 	clip-path: polygon(100% 0 , 50% 100% , 0 0 );
 	transform:translateX(-50%);
@@ -39,28 +40,29 @@ body{
 	font-weight:bold;
 	font-family:sans-serif;
 	color:#fff;
-	left:135px;
+	left:-15px;
 }
 
 .container .one{
-	background-color: #3f51b5;
+	background-color: rgb(209, 204, 200);
 	left:50%;
 }
 .container .two{
-	background-color: #ff9800;
-	transform: rotate(45deg);
+	background-color: rgb(65, 130, 127);
+	transform: rotate(90deg);
 }
 .container .three{
-	background-color: #e91e63;
-	transform:rotate(90deg);
+	background-color: rgb(209, 204, 200);
+	transform:rotate(180deg);
 }
 .container .four{
-	background-color: #4caf50;
-	transform: rotate(135deg);
+	background-color: rgb(65, 130, 127);
+	transform: rotate(270deg);
 }
-.container .five{
+
+/* .container .five{
 	background-color: #009688;
-	transform: rotate(180deg);
+	transform: rotate(deg);
 }
 .container .six{
 	background-color: #795548;
@@ -73,7 +75,7 @@ body{
 .container .eight{
 	background-color: #f44336;
 	transform: rotate(315deg);
-}
+} */
 
 .arrow{
 	position: absolute;
