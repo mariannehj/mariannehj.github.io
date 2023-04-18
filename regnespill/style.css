@@ -41,6 +41,7 @@ header nav a:hover{
     background-color: pink;
 }
 
+
 @media(max-width: 600px){
     header nav{
         width: 100%;
